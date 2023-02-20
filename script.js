@@ -12,7 +12,7 @@ $(document).ready(function () {
       localStorage.clear();
     });
   
-    //grabs hour from each time slot and compares it to actual time
+    // compares current time to the time slot
     $(".time-div").each(function () {
       var timeDiv = $(this).attr("id").split("-")[1];
       
@@ -28,7 +28,7 @@ $(document).ready(function () {
       }
     });
   
-    //grabs values from time and value divs and saves them to local storage
+    //saves values to local storage 
     $(".saveBtn").click(function (event) {
       event.preventDefault();
       var value = $(this).siblings(".time-block").val();
@@ -36,7 +36,7 @@ $(document).ready(function () {
       localStorage.setItem(time, value);
     });
   
-    //retrieves items from local storage and sets them in proper places
+    //puts local storage items to the correct time slot
     $("#hour-09 .time-block").val(localStorage.getItem("09"));
     $("#hour-10 .time-block").val(localStorage.getItem("10"));
     $("#hour-11 .time-block").val(localStorage.getItem("11"));
