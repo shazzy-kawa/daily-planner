@@ -2,12 +2,8 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
+This weeks challenge was to create a daily planner. The user story is AS AN employee with a busy schedule
+I WANT to add important events to a daily planner SO THAT I can manage my time effectively. The acceptance criteria for thr planner was to display the current day at the top of the calendar when a user opens the planner, present timeblocks for standard business hours when the user scrolls down, color-code each timeblock based on past, present, and future when the timeblock is viewed, allow a user to enter an event when they click a timeblock, save the event in local storage when the save button is clicked in that timeblock and persist events between refreshes of a page.
 
 ## Table of Contents (Optional)
 
