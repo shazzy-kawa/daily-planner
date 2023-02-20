@@ -5,7 +5,7 @@ $(document).ready(function () {
     displayDate.innerHTML = NowMoment;
     let currentHour = moment().format("HH");
   
-    // Button function to clear local storage and clear contents
+    // button function created to clear all inputs typed in 
     $("#clearFieldsBtn").click(function (event) {
       event.preventDefault;
       $("textarea").val("");
